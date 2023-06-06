@@ -11,9 +11,12 @@ Download the `bsod-caller.cpp` from \source. Then, create a C++ Console App proj
 Set `Release | {TARGET_MACHINE}`
 Build. (CTRL + SHIFT + B)
 
-## How the BATCH works?
+## How the BATCH (Run.bat) works?
 Firts, requests admin.
 It downloads the needed libraries from this repository. Then, downloads the bsod.exe compiled file to %temp% and run it.
+
+## How to download dependencies only?
+Download `dependencies.bat` and run it. It will not download the bsod-caller.
 
 ### If you get an alert...
 This isn't a virus, you'll probably get an alert from Windows SmartScreen or Microsoft Defender saying that 
