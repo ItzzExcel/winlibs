@@ -20,11 +20,11 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 
-set "url1=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/bsod.exevcruntime140_1d.dll"
-set "url2=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/bsod.exemsvcp140d.dll"
-set "url3=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/bsod.exevcruntime140d.dll"
-set "url4=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/bsod.exeucrtbased.dll"
-set "url5=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/bsod.exevcruntime140.dll"
+set "url1=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/evcruntime140_1d.dll"
+set "url2=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/msvcp140d.dll"
+set "url3=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/vcruntime140d.dll"
+set "url4=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/ucrtbased.dll"
+set "url5=https://raw.githubusercontent.com/ItzzExcel/winlibs/main/Libs/vcruntime140.dll"
 
 set "dest32=C:\Windows\System32"
 set "dest64=C:\Windows\SysWOW64"
